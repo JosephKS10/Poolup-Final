@@ -1,0 +1,58 @@
+.carousel{
+  height: 350px;
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+}
+
+.carousel .switchleft, .carousel .switchright{
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+}
+
+.button{
+  width: 80px;
+  height: 80px;
+}
+.carousel .switchleft{
+  position: absolute;
+  left: -60px;
+  top: 170px;
+  z-index: 3;
+}
+.carousel .switchright{
+  position: absolute;
+  right: -70px;
+  top: 170px;
+  z-index: 3;
+}
+.carouselbox{
+  height: 450px;
+  width: auto;
+  overflow: scroll hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+}
+.carouselbox img {
+  width: 247px;
+  height: 340px;
+  background-size: cover;
+  margin: 5px 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  z-index: 2;
+}
+
+.carouselbox img:hover{
+  transform: scale(1.1);
+  z-index: 5;
+  transition: 0.5s;
+}

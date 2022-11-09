@@ -1,0 +1,279 @@
+
+.group-body-group-page{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(319.5deg, #171511 25.08%, #62605E 44.29%, #FFFFFF 130.33%);
+}
+.font{
+    font-family: "Poppins";
+    font-weight: 300;
+}
+.create-group-modal{
+    width: 40vw;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+    border-radius: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #36332F;
+}
+.create-group-modal-heading{
+    font-size: 31px;
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-weight: 100;
+    position: relative;
+    left: 4vw;
+    top: 4vh;
+}
+.create-group-modal-box{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    height: 60vh;
+    width: 32vw;
+    position: relative;
+    top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#select1, #select2, #select3{
+    width: 32vw;
+    font-size: 32px;
+    height: 8vh;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    font-family: "Poppins";
+    font-weight: 300;
+    padding-left: 20px;
+    border: none;
+}
+.top1{
+    position: relative;
+    top: 3.5vh;
+}
+.top2{
+    position: relative;
+    top: 7vh;
+}
+.top3{
+    position: relative;
+    top: 10.5vh;
+}
+
+.final-create-btn{
+    position: relative;
+    top: 14vh;
+    width: 32vw;
+    font-size: 32px;
+    height: 8vh;
+    border: none;
+    border-radius: 87px;
+    background-color: #FF9100;
+    font-family: "Poppins";
+    font-weight: 300;
+}
+.final-create-btn:hover{
+    background-color: #ecb368
+}
+.allowed-members-div{
+    font-size: 20px;
+   
+    font-family: "Poppins";
+    font-weight: 300;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+    top: 20vh;
+}
+.back-div{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+    top: 15.5vh;
+}
+
+.explore-box{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 8vh;
+    width: 80vw;
+    height: 80vh;
+    background: #36332F;
+    border-radius: 37px;
+    max-width: 80vw;
+    overflow-x: hidden;
+}
+.explore-box .explore-header #explore-txt{
+    position: relative;
+    font-size: 22px;
+    color: #fff;
+    font-family: poppins;
+    top: 5.06vh;
+    left: 5.43vw;
+}
+.create-grp-btn{
+    width: 15vw;
+    position: relative;
+    top: 17vh;
+    left: 73vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#grp-btn{
+    position: relative;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    height: 28px;
+    width: 7.152vw;
+    border-radius: 20px;
+    background-color: #ff9000;
+    border: none;
+}
+#grp-btn:hover{
+    background-color: #f5b561
+}
+.tile-container{
+    width: 80vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 14vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.grp-tile{
+    position: relative;
+    width: 19.44vw;
+    height: 43.73vh;
+    flex-basis: 29.333333%;
+    border: 0px solid;
+    border-radius: 25px;
+    left: 5vw;
+    margin: 10px;
+}
+
+.grp-tile img{
+    width: 19.44vw;
+    height: 43.73vh;
+    object-fit:cover;
+    border: 0px solid;
+    border-radius: 25px;
+}
+
+.grp-tile .grp-id{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 100;
+    font-size: 14px;
+    color: #fff;
+    font-family: poppins;
+}
+.grp-tile .grp-tenure{
+    position: relative;
+    font-weight: 100;
+    font-size: 14px;
+    color: #fff;
+    font-family: poppins;
+}
+.id-tenure-container{
+    display: flex;
+    width: 19.44vw;
+    height: fit-content;
+    justify-content: space-between;
+    position: relative;
+    top: -346px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.grp-tile .grp-username{
+    position: relative;
+    font-weight: 100;
+    font-size: 14px;
+    width: 19.44vw;
+    color: #fff;
+    font-family: poppins;
+    top: -349px;
+    text-align: right;
+    padding-right: 10px;;
+}
+.tile-devider{
+    position: relative;
+    top: 67px;
+    border: rgb(96, 95, 95) solid;
+    width: 19.44vw;
+    border-width: 0px 0px 1px 0px;
+    z-index: 3;
+}
+.tile-devider1{
+    position: relative;
+    top: 67px;
+    left: 6vw;
+    border: rgb(96, 95, 95) solid;
+    width: 74vw;
+    border-width: 0px 0px 1px 0px;
+    z-index: 3;
+}
+
+.pay-btnid{
+    position: relative;
+    background-color: #fff;
+    height: 29px;
+    width: 83px;
+    border: 0px solid;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 20px;
+    top: -107px;
+    margin-left: 178px;
+    z-index: 1;
+}
+.grp-tile .tile-paybtn .pay-btnid:hover{
+    background-color: gray;
+    color: white;
+}
+.grp-tile .grp-usercount{
+    position: relative;
+    font-weight: 100;
+    font-size: 15px;
+    color: #fff;
+    font-family: poppins;
+    top: -138px;
+    left: 24px;
+display: flex;
+align-items: center;
+width: 3.5vw;
+justify-content: space-between;
+}
+    
+.person-fill{
+    width: 19px;
+    height: 19px;
+}
+.grp-tile .grp-expdate{
+        position: relative;
+        font-weight: 100;
+        font-size: 10px;
+        color: #fff;
+        font-family: poppins;
+        top: -141px;
+        left: 24px;
+}
+

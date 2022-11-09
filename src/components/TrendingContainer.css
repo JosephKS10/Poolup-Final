@@ -1,0 +1,68 @@
+
+.body{
+    background: linear-gradient(319.5deg, #171511 25.08%, #62605E 44.29%, #FFFFFF 130.33%);
+    height: 100vh;
+}
+.box-container{
+    width: 80vw;
+    height: 69.86311787072243vh;
+    position: relative;
+    top: 190px;
+    border: none;
+    background-color: #a4a3a2;
+    border: white solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70px;
+}
+.heading{
+    font-weight: 600;
+    font-family: "Poppins";
+    font-style:normal;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.145em;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    top: 53px;
+}
+table{
+    width: 80vw;
+    margin: auto;
+}
+table td {
+    position: relative;
+    top:199px;
+    width: fit-content;
+    max-width: 300px;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-style:normal;
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 0.145em;
+    text-align: center;
+    color: white;
+    border-right: 2px white solid;
+}
+#t3{
+    border-right: none;
+}
+.second-container{
+    height: 28vh;
+}
+.subheading{
+    font-weight: 600;
+    font-family: "Poppins";
+    font-style:normal;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.145em;
+    color: white;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+    top: 43px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+
+*{font-size: 10%;
+}
+
+.indexfirstbox {
+  margin-top: 50px;
+  overflow-x: hidden;
+  z-index: -1;
+}
+
+ .indeximage{
+    height: 300.0rem;
+    width: 100%;
+    transform: scaleY(1.4) scaleX(1.5);
+    
+  } 
+
+.firsttext {
+  /* India’s top growing shared platform community */
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  margin-top: 95px;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 56px;
+  text-align: center;
+  color: #000;
+  z-index: 32;
+}
+
+.secondtext {
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.145em;
+  margin-left: 510px;
+  margin-bottom: 50px;
+  margin-top: 8px;
+  z-index: 33;
+  color: #333;
+}
+
+
+
+
+

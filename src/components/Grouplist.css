@@ -1,0 +1,159 @@
+@import url("https://use.typekit.net/ipq5gca.css");
+
+.body-compilation{
+    background: linear-gradient(319.5deg, #171511 25.08%, #62605E 44.29%, #FFFFFF 130.33%);
+    height: 100vh;
+}
+
+.groups-box{
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    top: 162px;
+    background-color: #a4a3a2;
+    border: white solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:70px 70px 70px 70px;
+    transition: 0.5s ease;
+}
+.group1{
+    width: 40vw;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+}
+
+.binge-heading{
+    width: fit-content;
+    position: relative;
+    left: 50vw;
+    top: -18vw;
+}
+.part1{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight:600;
+    text-align: right;
+    width: 27vw;
+}
+.part2{
+    font-size: 91px;
+    font-family: 'Poppins';
+    font-weight:900;
+    text-align: right;
+    border-top: 2px black solid;
+    width: fit-content;
+}
+.dropdown-btn{
+    width: 80vw;
+    height: 8vh;
+    border-radius: 0px 0px 80px 80px;
+    position: relative;
+    left: -2px;
+    top: -27vh;
+    background-color: #a4a3a2;
+    transition: transform 0.8s ease;
+}
+.dropdown-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+.arrow-btn{
+    width: 80vw;
+    height: 8vh;
+    background-color: transparent;
+    border: white 2px solid;
+    border-top: none;
+    border-radius: 0px 0px 80px 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arrow-down{
+    width: 50px;
+    height: 50px;
+}
+.explore-btn-div{
+    width: fit-content;
+    position: relative;
+    top: -30vh;
+    margin-left: 60vw;
+}
+.explore-btn{
+    width: 15vw;
+    height: 10vh;
+    font-size: 22px;
+    position: relative;
+    border-radius: 49px;
+    border: none;
+    background-color: #d9d9d9;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+.explore-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* about part */
+.About-section{
+    position: relative;
+    margin-left: 0px;
+    background: grey;
+    margin-top: 204px;
+    padding: 94px;
+    height: 53vh;
+    
+
+}
+
+.About{
+    font-size: 32px;
+    font-family: poppins;
+
+}
+
+.About_txt{
+    position: absolute;
+    width: 712px;
+    height: 262px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+hr{
+    color: black;
+    width: 80%;
+    height: 1px;
+    background-color: #333;
+    margin-top:114px ;
+}
+
+.contact{
+    font-size: 24px;
+    font-family: poppins;
+    margin-top: 15px;
+
+}
+
+.contact_txt{
+    position: absolute;
+    width: 712px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 32px;
+
+}
+
+
+    
+
+
+
+
+
